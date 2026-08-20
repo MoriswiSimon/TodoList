@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f7;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+
+.todo-container {
+    width: 500px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    
+    
+}
+
+h1 {
+    text-align: center;
+    color: #222;
+    margin-bottom: 25px;
+    font-size: 32px;
+}
+
+.todo-input {
+    display: flex;
+    gap: 10px;
+}
+
+.todo-input input {
+    flex:1;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+}
+
+.todo-input input:focus {
+    border-color: #4a90e2;
+}
+
+.todo-input button {
+    padding: 12px 20px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.todo-input button:hover {
+    background-color: #357abd;
+}
+
+.task-List {
+    list-style: none;
+    padding: 0;
+    margin-top: 25px;
+}
+
+.task-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #78f9fa;
+    border-radius: 8px;
+}
+
+.task-list button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.task-list button:hover {
+    background-color: #c0392b;
+}
+
+/* Search box */
+.search-box {
+    margin-top: 15px;
+}
+
+.search-box input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+}
+
+.search-box input:focus {
+    border-color: #4a90e2;
+}
+
+/* Task counter */
+.task-count {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* Task actions */
+.task-actions {
+    display: flex;
+    gap: 6px;
+}
+
+.task-actions button {
+    border: none;
+    padding: 7px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+}
+
+.complete-btn {
+    background-color: #27ae60;
+}
+
+.complete-btn:hover {
+    background-color: #219150;
+}
+
+.edit-btn {
+    background-color: #f39c12;
+}
+
+.edit-btn:hover {
+    background-color: #d68910;
+}
+
